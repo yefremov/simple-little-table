@@ -1,0 +1,94 @@
+body {
+    background: url("images/body-background.gif") repeat scroll 50% 50% transparent;
+    font-family: "Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+::-moz-selection {
+  background-color: #1F7AD7;
+  color: #FFFFFF;
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.5);
+
+}
+
+::selection {
+  background-color: #1F7AD7;
+  color: #FFFFFF;
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.simple-little-table {
+    border: 1px solid #D6D6D6;
+    border-radius: 3px 3px 3px 3px;
+    border-spacing: 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.086);
+    font-family: "Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.simple-little-table a {
+  text-decoration: underline;
+}
+
+.simple-little-table a:hover {
+  text-decoration: none;
+}
+
+.simple-little-table th, .simple-little-table td {
+    color: #555555;
+    padding: 21px 28px;
+    text-align: left;
+}
+
+.simple-little-table th {
+    background: none repeat scroll 0 0 #E5E7E8;
+    background-image: -moz-linear-gradient(center top , #ECEDEE, #E8EAEA);
+    background-image: -webkit-gradient(linear, top, #ECEDEE, #E8EAEA);
+    background-image: -webkit-linear-gradient(top , #ECEDEE, #E8EAEA);
+    background-image: -o-linear-gradient(top , #ECEDEE, #E8EAEA);
+    background-image: -ms-linear-gradient(top , #ECEDEE, #E8EAEA);
+    background-image: linear-gradient(top , #ECEDEE, #E8EAEA);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.95) inset, 0 -1px 0 rgba(255, 255, 255, 0.95) inset;
+    color: #666666;
+    font-weight: 700;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
+}
+
+
+.simple-little-table th a {
+  color: #666666;
+}
+
+.simple-little-table th:first-child {
+    border-radius: 3px 0 0 0;
+}
+
+.simple-little-table th:last-child {
+    border-radius: 0 3px 0 0;
+}
+
+.simple-little-table td {
+    background-color: #FAFAFA;
+    border-top: 1px solid #D6D6D6;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+.simple-little-table td a {
+  color: #666666;
+}
+
+.simple-little-table tbody tr:nth-child(2n) td {
+    background-color: #F7F7F7;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.95) inset;
+}
+
+.simple-little-table tbody tr:last-child td:first-child {
+    border-radius: 0 0 0 3px;
+}
+
+.simple-little-table tbody tr:last-child td:last-child {
+    border-radius: 0 0 3px 0;
+}
