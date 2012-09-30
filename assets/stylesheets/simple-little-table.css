@@ -1,5 +1,8 @@
 body {
-    background: url("body-background.gif") repeat scroll 50% 50% transparent;
+    background: url("../images/body-background.gif") repeat scroll 50% 50% transparent;
+    font-family: "Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-size: 12px;
+    font-weight: 300;
 }
 
 ::-moz-selection {
@@ -20,9 +23,6 @@ body {
     border-radius: 3px 3px 3px 3px;
     border-spacing: 0;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.086);
-    font-family: "Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
-    font-size: 12px;
-    font-weight: 300;
 }
 
 .simple-little-table th, .simple-little-table td {
