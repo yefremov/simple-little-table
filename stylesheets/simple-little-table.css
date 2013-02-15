@@ -18,6 +18,7 @@ body {
 }
 
 .simple-little-table {
+    background-color: #FFFFFF;
     border: 1px solid #D6D6D6;
     border-collapse: separate;
     border-radius: 3px 3px 3px 3px;
