@@ -8,6 +8,6 @@ HTML/CSS Table based on Orman Clark's design from [Premium Pixels](http://www.pr
 
 ## License
 
-Copyright (c) 2012 Anton Yefremov  
+Copyright (c) 2013 Anton Yefremov  
 Free to use and abuse under the MIT license.  
 [http://www.opensource.org/licenses/mit-license.php](http://www.opensource.org/licenses/mit-license.php)
